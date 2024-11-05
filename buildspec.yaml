@@ -6,7 +6,6 @@ phases:
       python: latest
   pre_build:
     commands:
-      - cd ./python-app
       - echo Installing python packages...
       - python -m venv .venv
       - . .venv/bin/activate
