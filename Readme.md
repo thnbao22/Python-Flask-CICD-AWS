@@ -4,6 +4,7 @@
 In this project, we will follow DevOps best practices to automate the processes of change management, building, testing, and deploying a Python Flask application on AWS. We will leverage the power of CI/CD tools and infrastructure on AWS to deploy our application. This will involve developing a Python Flask web application using Docker containers, automating the build and test process with Continuous Integration, automatically deploying to the test environment with Continuous Deployment, and approving deployments to the production environment through Continuous Deployment.
 
 This will soon be updated. Our target architecture is expected to look like the diagram below:
+![Architecture](images/Architecture.drawio.png)
 
 ## Key Tools and Technologies
 - ECS Fargate: Allows running containers without the need to manage servers or clusters of EC2 instances.
